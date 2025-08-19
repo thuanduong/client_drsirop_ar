@@ -22,8 +22,8 @@ public class LoadingState : InjectedBState
         var uiLoadingPresenter = this.Container.Inject<LoadingPresenter>();
         uiLoadingPresenter.ShowLoadingAsync().Forget();
 
-        var audioPresenter = this.Container.Inject<AudioPresenter>();
-        audioPresenter.ShowAudioAsync().Forget();
+        //var audioPresenter = this.Container.Inject<AudioPresenter>();
+        //audioPresenter.ShowAudioAsync().Forget();
 
         await UniTask.Delay(1000).AttachExternalCancellation(cts.Token);
         this.Machine.ChangeState<LoginState>();

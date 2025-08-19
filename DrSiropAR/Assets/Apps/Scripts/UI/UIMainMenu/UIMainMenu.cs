@@ -6,6 +6,7 @@ public class UIMainMenu : PopupEntity<UIMainMenu.Entity>
 {
     public class Entity
     {
+
     }
 
     protected override void OnSetEntity()

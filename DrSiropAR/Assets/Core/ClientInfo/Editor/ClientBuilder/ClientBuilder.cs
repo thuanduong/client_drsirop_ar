@@ -89,6 +89,7 @@ public class ClientBuilder : EditorWindow
         currentClientVersion = enviromentInfo.Version;
         assetVersion = enviromentInfo.AssetVersion;
         assetProfileId = AddressableAssetSettingsDefaultObject.Settings.profileSettings.GetProfileId(currentEnviroment.ToString());
+        Debug.Log($"Profile {assetProfileId} Asset Version {assetVersion}");
     }
 
     private void OnGUI()

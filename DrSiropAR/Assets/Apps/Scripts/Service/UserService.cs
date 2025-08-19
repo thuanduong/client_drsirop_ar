@@ -24,6 +24,11 @@ public class UserService : IDisposable
     public void Load()
     {
         var lm = UserData.Instance.GetOne<UserProfileModel>();
+        string deviceId = SystemInfo.deviceUniqueIdentifier;
+        lm.UserId = deviceId;
+        lm.UserName = "Player_" + deviceId.Substring(0, 8);
+        //lm.AgentId = "agent_a3e627b1c00e7f95bbc8f34973";
+        lm.AgentId = "agent_36209ddfad1025aff987c94d1e";
         UserData.Instance.InsertOrUpdate(lm);
     }
 

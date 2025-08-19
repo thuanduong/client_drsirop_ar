@@ -15,8 +15,53 @@ MonoBehaviour:
   m_GroupName: Streaming
   m_GUID: f3c94269707114b429cb7026ca1681d3
   m_SerializeEntries:
+  - m_GUID: 0066cd602c30edb4fa6fb4695b21fe2d
+    m_Address: Fonts/Nunito/Nunito-Regular SDF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02bb7a043e5c69c41979d653672a51ba
+    m_Address: Models/DrSirop/DrSirop_Skin_1/GreenMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05a503f027892184aab1187bf4bfcf54
+    m_Address: UI/UIBackgroundColor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 074c0ed47219a48448533519ca421b79
     m_Address: Sound/MainTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0896ccaa144b7974bacacbc71206ef9e
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/Magic.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ac48ebfc475c9a4faa18477c5838d7c
+    m_Address: Models/DrSirop/DrSirop_Skin_1/BlackMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f85dc98e58b66f49a7cd8e649df6afd
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/Vector.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 113fa6aff034d4c4196255d8ff16101d
+    m_Address: Models/DrSirop/DrSirop_Skin_1/Facial/TalkingMouth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15dce3ccf0f3c0f4c8596c795f48ddcd
+    m_Address: Assets/AssetBundles/Fonts/Nunito/Nunito-Bold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1899320e96a564443bbb0269e580829d
+    m_Address: Models/DrSirop/DrSirop_Skin_1/YellowPureMat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -25,8 +70,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cf5df4449431cc438f484bd661a8d8e
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/mic_off.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d83feddff128554c8f3b41b02753c8f
+    m_Address: Fonts/Nunito/static/Nunito-BlackItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e61d9f246e1f2f42b49902de736c382
+    m_Address: Fonts/Nunito/static/Nunito-Light
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 23224313b81a68545b6792d081dd6726
     m_Address: UI/UILoading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2716dc44e54539a4d9646e0415a5b853
+    m_Address: Assets/AssetBundles/UI/UIRequestChat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30ab0b7ab4d868243a6b0bc630acdc7a
+    m_Address: Models/DrSirop/DrSirop_Skin_1/PinkMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b6941259e32dd43b9f66d7aa1f9cbb
+    m_Address: Models/DrSirop/DrSirop_Skin_1/RedMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36f3940ad42f23d45a6b44a534c683c3
+    m_Address: Models/DrSirop/Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a560e5135c93cc4dbcf39040c389140
+    m_Address: Fonts/Nunito/static/Nunito-MediumItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a6a3d214a5b8774e9fba6b5bf01b5aa
+    m_Address: Fonts/Nunito/static/Nunito-SemiBold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be558746087d964d8a590367554a629
+    m_Address: Models/DrSirop/Textures/no
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -35,8 +130,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f2d3a84e82294e42934d98c6f19c7cc
+    m_Address: Models/DrSirop/DrSirop_Skin_1/OrangeLightMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fc11fbb047ab8c44890f29f299975e5
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/arrow-left.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fe445292605db64e8a616c86ce7d24a
+    m_Address: Models/DrSirop/Mask/GlassMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40d1edbfc24ac8a4b8626cec44e6188b
+    m_Address: Models/DrSirop/DrSirop_Skin_1/BlueMat1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 429980a5ee03255429e853da08a3acde
+    m_Address: Animators/MaleController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47227c2ee7c8acf49a72cf72152597c4
+    m_Address: Fonts/Nunito/static/Nunito-ExtraLightItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f1967e00f3deb0479602142ae344752
     m_Address: UI/UIPopupYesNoMessage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50326d72ffb3a114ebe29f00cf24e4cf
+    m_Address: Models/DrSirop/DrSirop_Skin_1/orange
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -45,8 +175,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 546860cf5fd93b745bca7c949108dea7
+    m_Address: Fonts/Nunito/static/Nunito-Bold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55364c6178631a2479f4dfedc4debdf8
+    m_Address: Models/DrSirop/DrSirop_Skin_1/WhiteEye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b444a99b8fd3104b84781d071bdf426
     m_Address: UI/UILogin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c2d4bb901fca3547a4008d0f63869e8
+    m_Address: Models/DrSirop/Textures/MaskTex
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dbb06681ceccfd4a82d75eba307ee0c
+    m_Address: Models/DrSirop/Textures/Mouth/SM_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e5d405aa5d66014385d4930b4adf7e5
+    m_Address: Models/DrSirop/DrSirop_Skin_1/BlackBrownMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ff55799705901149a41f306128f906e
+    m_Address: Fonts/Nunito/static/Nunito-LightItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61888286b2313c24ea80c79f0c375ffe
+    m_Address: Models/DrSirop/Textures/ClothText
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -60,8 +225,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 657c6b21bcf248e41838b5433b17d21a
+    m_Address: Fonts/Nunito/static/Nunito-BoldItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 693435f169bd62744a7540243637320d
     m_Address: UI/UIMainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b6c750a002c76646b613a27352acc70
+    m_Address: Models/DrSirop/DrSirop_Skin_1/Facial/GreetingMouth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ccd69690b85b7043918df3a5236c776
+    m_Address: Models/DrSirop/DrSirop_Skin_1
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -70,8 +250,178 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7362caccf94e6f146835c9062fc3e98d
+    m_Address: Models/DrSirop/Mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7629f8470c1e079419d85b18c47d6af2
+    m_Address: UI/UIARAsk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 76564b37fe38ede4f8794c327f388768
     m_Address: UI/UIBackground
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78fd09f0cfc58254a826dd175a9bcabf
+    m_Address: Models/DrSirop/DrSirop_Skin_1/BlueMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d294be88e8250e49b7f4ef216c16382
+    m_Address: Animations/Male/Male Standing Pose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e3f3900f7c577e45acdaeac290fe0b4
+    m_Address: Models/DrSirop/Textures/Mouth/SM_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e62cc0f360367a4a890befa5bdf8ed9
+    m_Address: Models/DrSirop/DrSirop_Skin_1/WhiteSpecMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 820e366c3192a8d40ab4a7b21c1f87b9
+    m_Address: Models/DrSirop/Mask_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82a20e3e9230d9e45968c2d9b389006b
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/video_switch.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86f5c336d6b8de54585d7509075c1d17
+    m_Address: Assets/AssetBundles/Animations/UI/UIARScan/UIARScan_ScanSurface.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87dabde0c418fcd48b8b533067cddf77
+    m_Address: Assets/AssetBundles/Animations/Male/Waving.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 898a55747696cd345b9928e33220916d
+    m_Address: Assets/AssetBundles/Sprite/UI/Message/Message_ri.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89f07634a25633c49918107225df5c8e
+    m_Address: Fonts/Nunito/static/Nunito-ExtraLight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bfd8366773dc774abedd43d514b5799
+    m_Address: Models/DrSirop/Mask/Mask_01_mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90602197295363a458176c9e0baac7a0
+    m_Address: Models/DrSirop/DrSirop_Skin_1/YellowMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90a9f4abe8df5e24cab7fee5b6be0610
+    m_Address: Models/DrSirop/Textures/Mask_01_Tex
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 995d254215857bc4dac21599c81b8730
+    m_Address: Assets/AssetBundles/UI/UICharacterMessageBubble.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c25b966cd7d30642836967f7a3bc96d
+    m_Address: Assets/AssetBundles/Sprite/UI/Message/Pills.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e611d561bb515d4186cb28751d05532
+    m_Address: Models/DrSirop/Shoe
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a146839f120b6d24db04e3ff0e8a717e
+    m_Address: Models/DrSirop/Mask/MaskMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a88dce5f34c5e7f4caf33a4346a451c3
+    m_Address: Models/DrSirop/DrSirop_Skin_1/Facial/NormalMouth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a91db6e233d667b48a2b163fb1a44a2f
+    m_Address: Fonts/Nunito/static/Nunito-Black
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa6603c7486454f499604aee097fbc45
+    m_Address: Assets/AssetBundles/Sprite/UI/Button/Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adc1afc3f2e742e49935c7a54690b038
+    m_Address: Models/DrSirop/Mask/Mask_01_Glass_mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae78e423e79c6b249a04bec321040a8d
+    m_Address: Assets/AssetBundles/UI/MessageCanvas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b36a1f048c1ca6a429c6881bce329d75
+    m_Address: Fonts/Nunito/static/Nunito-ExtraBold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb011fb8ddded7645852c75a87c80013
+    m_Address: Prefabs/DrSirop/Character
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbd3a36e868f5134ab491f5f470ee385
+    m_Address: Assets/AssetBundles/Sprite/UI/Message/Call.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd9835a14c4b71e4a83d2ddf6655f4bd
+    m_Address: Models/DrSirop/Textures/Mouth/DefaultM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c261f38b2db330141bf35626cd12df86
+    m_Address: Models/DrSirop/DrSirop_Skin_1/YellowLightMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c65d746e2ed917f40b16d0944354cdfe
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/menu.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cabe0272fd14c3148b3d263fb2ddab0d
+    m_Address: Assets/AssetBundles/Sprite/UI/Message/Message_ce.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb97e02497326af47baa3f25a22fb082
+    m_Address: Sprite/UI/Backgroud/Degree=180
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce87ad1127366b94d8f8a27853e2eb44
+    m_Address: Animations/Male/T-Pose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf2d0e30c3949c448b40311c7ea0fd09
+    m_Address: Models/DrSirop/DrSirop_Skin_1/WhiteMat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,8 +430,93 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d54e6885a21dc8f40af745d98e3deace
+    m_Address: Object/RetellClientComponent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6952f760f5a9974ea32da9a73a7e338
+    m_Address: Fonts/Nunito/static/Nunito-SemiBoldItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da310ee73b4c858499d19d66fd216ff4
+    m_Address: Fonts/Nunito/static/Nunito-Italic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbdf9e41f270bf8479320ccd49dbaff9
+    m_Address: Assets/AssetBundles/Animations/Male/Waving.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcd7edb0129a5d84ca49728e3e7a1726
+    m_Address: Assets/AssetBundles/Sprite/UI/Message/Message_le.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd5afedf5707adc45b682acf392c5e30
+    m_Address: Fonts/Nunito/static/Nunito-Medium
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0917e068db5a35448cb1b79f33a6084
+    m_Address: Fonts/Nunito/static/Nunito-ExtraBoldItalic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e456fa409cd6d0e4596ce31f465be14f
+    m_Address: Assets/AssetBundles/Sprite/UI/Message/Call Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e53e74bcb700beb41824309f14edb61e
+    m_Address: Fonts/Nunito/static/Nunito-Regular
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8333bcd5d530d64c94b18f6cc05eb68
+    m_Address: Assets/AssetBundles/Sprite/UI/Icon/video.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: edc97e6f839ab504aa5c5eb406f93b5d
     m_Address: Sprite/UI/Common/Process_Fill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0be15dfeba81924981c594ba129d3d4
+    m_Address: UI/UIARScan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2eef734819a05d43a544e01196e0ef7
+    m_Address: Models/DrSirop/DrSirop_Skin_1/PureWhiteMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f438bd00b7bc4784dbacc6636823038f
+    m_Address: Fonts/Nunito/Nunito-VariableFont_wght
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4c64974f3ea37247a107044a696c150
+    m_Address: Models/DrSirop/DrSirop_Skin_1/RedLightMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f62df875939831f4c9e5c4db686e053b
+    m_Address: Assets/AssetBundles/Animations/UI/UIARScan/UIARScanAnimator.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e8c374e2121a4448cb021df0afc258
+    m_Address: Models/DrSirop/DrSirop_Skin_1/eye.001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd04c6afaf460fc48b906b77bfa8c6e3
+    m_Address: Fonts/Nunito/Nunito-Italic-VariableFont_wght
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

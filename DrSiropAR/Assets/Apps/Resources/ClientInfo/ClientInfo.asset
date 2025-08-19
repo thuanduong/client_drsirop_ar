@@ -15,7 +15,7 @@ MonoBehaviour:
   currentEnviroment: 0
   EnviromentInfos:
   - Enviroment: 0
-    Version: 0.01
+    Version: 0.02
     AssetVersion: 0.01
     LastBuildInfo: 0
   - Enviroment: 2

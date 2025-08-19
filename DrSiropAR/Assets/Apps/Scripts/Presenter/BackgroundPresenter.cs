@@ -11,8 +11,8 @@ public class BackgroundPresenter : IDisposable
     private readonly IDIContainer container;
     private CancellationTokenSource cts;
 
-    UIBackground background;
-    UIBackground backgroundWorld;
+    UIBackground backgroundSprite;
+    UIBackgroundColor backgroundColor;
     public bool FLAG_NO_CHANGE { get; set; }
 
     public BackgroundPresenter(IDIContainer container)
@@ -22,15 +22,16 @@ public class BackgroundPresenter : IDisposable
 
     public void Dispose()
     {
-
+        UILoader.SafeRelease(ref backgroundSprite);
+        UILoader.SafeRelease(ref backgroundColor);
     }
 
-    public async UniTask LoadBackground(string path, bool FromAsset = false)
+    public async UniTask LoadBackgroundWithSprite(string path, bool FromAsset = false)
     {
         cts.SafeCancelAndDispose();
         cts = new CancellationTokenSource();
 
-        background ??= await UILoader.Instantiate<UIBackground>(canvasType : UICanvas.UICanvasType.BackGround, token: cts.Token);
+        backgroundSprite ??= await UILoader.Instantiate<UIBackground>(canvasType : UICanvas.UICanvasType.BackGround, token: cts.Token);
         Sprite s = null;
         if (FromAsset)
         {
@@ -44,8 +45,8 @@ public class BackgroundPresenter : IDisposable
         {
             sprite = s
         };
-        background.SetEntity(entity);
-        await background.In();
+        backgroundSprite.SetEntity(entity);
+        await backgroundSprite.In();
     }
 
     public async UniTask ChangeBackgroundImage(string newPath)
@@ -56,7 +57,7 @@ public class BackgroundPresenter : IDisposable
         {
             sprite = newSprite
         };
-        background.SetEntity(entity);
+        backgroundSprite.SetEntity(entity);
     }
 
     private async UniTask loadBackgroundSprite(string path, Action<Sprite> callback)
@@ -67,43 +68,55 @@ public class BackgroundPresenter : IDisposable
         callback?.Invoke(loadedSprite);
     }
 
-    public async UniTask HideBackground()
+    public async UniTask HideBackgroundSprite()
     {
-        await background.Out();
+        if (backgroundSprite != null)
+            await backgroundSprite.Out();
     }
 
-    public async UniTask ShowBackground()
+    public async UniTask ShowBackgroundSprite()
     {
-        await background.In();
+        if (backgroundSprite != null)
+            await backgroundSprite.In();
     }
 
-    public async UniTask LoadBackgroundWorld(string path, bool FromAsset = false, CancellationToken cancellationToken = default)
+    public async UniTask LoadBackgroundColor(Color color, CancellationToken cancellationToken = default)
     {
         try
         {
-            backgroundWorld ??= await UILoader.Instantiate<UIBackground>(canvasType: UICanvas.UICanvasType.BackgroundWorld, token: cancellationToken);
-            Sprite s = null;
-            if (FromAsset)
+            backgroundColor ??= await UILoader.Instantiate<UIBackgroundColor>(canvasType: UICanvas.UICanvasType.BackGround, token: cancellationToken);
+            var entity = new UIBackgroundColor.Entity()
             {
-                s = await SpriteLoader.LoadSprite(path, token: cts.Token);
-            }
-            else
-            {
-                await loadBackgroundSprite(path, (i) => s = i);
-            }
-            var entity = new UIBackground.Entity()
-            {
-                sprite = s
+                defaultColor = color,
             };
-            backgroundWorld.SetEntity(entity);
-            await backgroundWorld.In();
+            backgroundColor.SetEntity(entity);
+            await backgroundColor.In();
         }
         catch { }
     }
 
-    public async UniTask HideBackgroundWorld()
+    public async UniTask ShowBackgroundColor()
     {
-        await backgroundWorld.Out();
+        if (backgroundColor != null)
+            await backgroundColor.In();
+    }
+
+    public async UniTask ChangeToColor(Color color, float duration, CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            if (backgroundColor != null)
+            {
+                await backgroundColor.ChangeColor(color, duration);
+            }
+        }
+        catch { }
+    }
+
+    public async UniTask HideBackgroundColor()
+    {
+        if (backgroundColor != null)
+            await backgroundColor.Out();
     }
 
 }

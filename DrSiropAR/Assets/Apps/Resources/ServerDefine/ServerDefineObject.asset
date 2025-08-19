@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 045c48018f6db48b5a90f049aadfb3fe, type: 3}
   m_Name: ServerDefineObject
   m_EditorClassIdentifier: 
-  apiPath: https://a28.dxdlabs.dev
+  apiPath: https://drsirop-server.onrender.com

@@ -76,6 +76,8 @@ MonoBehaviour:
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: 1b24bacd7af88ec46af497fd273c2157
         m_Value: 
+      - m_Id: 2be9ca673be1a2b4f855a4e732d2b700
+        m_Value: D:/Development/UnityProjects/DrSirop/DrSiropAR/client_drsirop_ar/DrSiropAR/Assets
       - m_Id: 469f79b6ada76d44cbce0fbc90678ec4
         m_Value: 'http://localhost/[BuildTarget]'
       - m_Id: 6a69fda361e7b444d83a6125a3993ac9
@@ -97,6 +99,8 @@ MonoBehaviour:
         m_Value: 'ServerData/[Asset Version]/[Enviroment]/[BuildTarget]'
       - m_Id: 1b24bacd7af88ec46af497fd273c2157
         m_Value: 
+      - m_Id: 2be9ca673be1a2b4f855a4e732d2b700
+        m_Value: D:/Development/UnityProjects/DrSirop/DrSiropAR/client_drsirop_ar/DrSiropAR/Assets
       - m_Id: 469f79b6ada76d44cbce0fbc90678ec4
         m_Value: '[BucketURL]/[Asset Version]/[Enviroment]/[BuildTarget]'
       - m_Id: 6a69fda361e7b444d83a6125a3993ac9
@@ -110,12 +114,38 @@ MonoBehaviour:
           Version]/[Enviroment]/[BuildTarget]'
       - m_Id: c412a92aeb40a6042bdedd0be6230b76
         m_Value: Production
+    - m_InheritedParent: 
+      m_Id: f6bcc5ed41229e6479fbb2ca25f6aa81
+      m_ProfileName: Development
+      m_Values:
+      - m_Id: 0410492af7a18fc4a95bd2b450736717
+        m_Value: 'ServerData/[Asset Version]/[Enviroment]/[BuildTarget]'
+      - m_Id: 1b24bacd7af88ec46af497fd273c2157
+        m_Value: 
+      - m_Id: 2be9ca673be1a2b4f855a4e732d2b700
+        m_Value: 0.01
+      - m_Id: 469f79b6ada76d44cbce0fbc90678ec4
+        m_Value: '[BucketURL]/[Asset Version]/[Enviroment]/[BuildTarget]'
+      - m_Id: 6a69fda361e7b444d83a6125a3993ac9
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 918739a9a7488364299b30279ecb63ea
+        m_Value: 0.01
+      - m_Id: a9ffdcf5a07c3aa4998fe60400358a98
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[Asset Version]/[Enviroment]/[BuildTarget]'
+      - m_Id: acd9d9e5573d22243b60fdf8abfbebd4
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[Asset
+          Version]/[Enviroment]/[BuildTarget]'
+      - m_Id: c412a92aeb40a6042bdedd0be6230b76
+        m_Value: Development
     m_ProfileEntryNames:
     - m_Id: 0410492af7a18fc4a95bd2b450736717
       m_Name: Remote.BuildPath
       m_InlineUsage: 0
     - m_Id: 1b24bacd7af88ec46af497fd273c2157
       m_Name: BucketURL
+      m_InlineUsage: 0
+    - m_Id: 2be9ca673be1a2b4f855a4e732d2b700
+      m_Name: Asset Version
       m_InlineUsage: 0
     - m_Id: 469f79b6ada76d44cbce0fbc90678ec4
       m_Name: Remote.LoadPath
@@ -151,4 +181,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e69475ff9b1116641a29708703b61a6f, type: 2}
   - {fileID: 11400000, guid: 3812e3359c1ba9f43871aa55b61a08a4, type: 2}
   - {fileID: 11400000, guid: 58bf94313c529e94ea5b16ba6b98fe00, type: 2}
-  m_ActiveProfileId: 6271502fd1650e44080266fd18bb9de3
+  m_ActiveProfileId: f6bcc5ed41229e6479fbb2ca25f6aa81

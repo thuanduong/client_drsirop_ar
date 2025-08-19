@@ -21,7 +21,10 @@ public class AudioPresenter : IDisposable
 
     public void Dispose()
     {
+        cts.SafeCancelAndDispose();
+
         ObjectLoader.SafeRelease("Object", ref objAudio);
+
     }
 
     public async UniTaskVoid ShowAudioAsync()

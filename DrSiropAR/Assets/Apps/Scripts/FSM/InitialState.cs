@@ -23,6 +23,7 @@ public class InitialState : InjectedBHState, IDisposable
         this.Container.Bind(new LoadingMainMenuPresenter());
         this.Container.Bind(new BackgroundPresenter(Container));
         
+
         uiHeaderPresenter = new UIHeaderPresenter(Container);
         this.Container.Bind(uiHeaderPresenter);
         this.Container.Bind(new UIBottomMenuPresenter(Container));
@@ -32,6 +33,7 @@ public class InitialState : InjectedBHState, IDisposable
         this.Container.Bind(PingService.Instantiate(Container));
         this.Container.Bind(LoginService.Instantiate(Container));
         this.Container.Bind(UserService.Instantiate(Container));
+        this.Container.Bind(AIConversationService.Instantiate(Container));
         //API Server
         await ConfigServer();
         
@@ -80,6 +82,7 @@ public class InitialState : InjectedBHState, IDisposable
         this.Container.RemoveAndDisposeIfNeed<PingService>();
         this.Container.RemoveAndDisposeIfNeed<LoginService>();
         this.Container.RemoveAndDisposeIfNeed<UserService>();
+        this.Container.RemoveAndDisposeIfNeed<AIConversationService>();
 
         this.Container.RemoveAndDisposeIfNeed<AudioPresenter>();
         this.Container.RemoveAndDisposeIfNeed<UIHeaderPresenter>();
