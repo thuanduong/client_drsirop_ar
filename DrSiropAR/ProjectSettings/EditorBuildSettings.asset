@@ -5,30 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 4755b35b590504809a7525fd2109c2e2
-  - enabled: 0
-    path: Assets/Scenes/TestAI.unity
-    guid: 8a024e7f99718da4096fa52ef1fb879a
-  - enabled: 0
-    path: Assets/Scenes/SampleAR.unity
-    guid: 771953bf2822fce4f81aeb4c705ba205
-  - enabled: 0
-    path: Assets/Scenes/A.unity
-    guid: 7067cda61350a7342ad6f0fcc95ed6fd
-  - enabled: 0
-    path: Assets/Scenes/TestLiveKit.unity
-    guid: ae71bcdb55b8f2540af960076bfa1576
   - enabled: 1
-    path: Assets/Scenes/TestRetell.unity
-    guid: 5104d4d1ad9f1ac40bc51869795a178c
+    path: Assets/Scenes/Main.unity
+    guid: 23eb56c9b1db6cf4ab20fcfa67bad122
+  - enabled: 1
+    path: Assets/Scenes/ARScene.unity
+    guid: 7067cda61350a7342ad6f0fcc95ed6fd
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259,
       type: 2}
-    com.unity.addressableassets: {fileID: 11400000, guid: 4fa28bc194c585a46b6672dec3cc3461,
+    com.unity.addressableassets: {fileID: 11400000, guid: 06cdca1ebb181f4409d1b796a7676375,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c199e683398494f32b4cde18e73ab731,
       type: 2}
