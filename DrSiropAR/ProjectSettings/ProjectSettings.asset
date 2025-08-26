@@ -567,9 +567,9 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR Camera
+  cameraUsageDescription: 'AR Camera for Dr Sirop '
   locationUsageDescription: 
-  microphoneUsageDescription: 
+  microphoneUsageDescription: Using for calling with AI for healthing issues
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 11.0
   switchNMETAOverride: 
