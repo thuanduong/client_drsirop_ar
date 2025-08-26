@@ -3,9 +3,16 @@
     <type fullname="AudioComponent" preserve="all" />
     <type fullname="BillboardComponent" preserve="all" />
     <type fullname="CharacterBasicComponent" preserve="all" />
+    <type fullname="ChatVoiceComponent" preserve="all" />
     <type fullname="IsVisibleComponent" preserve="all" />
     <type fullname="RetellClientComponent" preserve="all" />
     <type fullname="UIARAsk" preserve="all" />
+    <type fullname="UIARChat" preserve="all" />
+    <type fullname="UIARChatInputText" preserve="all" />
+    <type fullname="UIARChatInputVoice" preserve="all" />
+    <type fullname="UIARChatItemChat" preserve="all" />
+    <type fullname="UIARChatListItemChat" preserve="all" />
+    <type fullname="UIARChatMaxWidthSetter" preserve="all" />
     <type fullname="UIARScan" preserve="all" />
     <type fullname="UIBackground" preserve="all" />
     <type fullname="UIBackgroundColor" preserve="all" />
@@ -14,6 +21,7 @@
     <type fullname="UIForgotPasswordComponent" preserve="all" />
     <type fullname="UIForgotPasswordPanelAnimation" preserve="all" />
     <type fullname="UIHeader" preserve="all" />
+    <type fullname="UIImageComponent" preserve="all" />
     <type fullname="UILoading" preserve="all" />
     <type fullname="UILoadingFadingAnimation" preserve="all" />
     <type fullname="UILoadingMainMenu" preserve="all" />
@@ -108,10 +116,12 @@
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
@@ -119,6 +129,7 @@
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>

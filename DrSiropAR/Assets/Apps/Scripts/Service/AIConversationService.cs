@@ -22,6 +22,8 @@ public class AIConversationService : IDisposable
     private const string endWebChat = "end-chat";
     private const string sendMessage = "send-mess";
 
+    private const string createWSVoiceChat = "voice_chat";
+
     private RetellClientComponent retellClient;
 
     public event Action OnConnectSucceed = ActionUtility.EmptyAction.Instance;
@@ -297,7 +299,6 @@ public class AIConversationService : IDisposable
             retellClient.PublishMicrophone(index, autoRecord);
     }
 
-
     public void StartTalk()
     {
         if (retellClient != null)
@@ -318,4 +319,9 @@ public class AIConversationService : IDisposable
             retellClient.WaitAgentTalk();
     }
 
+    public string createWSPath(string userId)
+    {
+        var path = $"{ServerDefinePath.WS}/{createWSVoiceChat}/{userId}";
+        return path;
+    }
 }

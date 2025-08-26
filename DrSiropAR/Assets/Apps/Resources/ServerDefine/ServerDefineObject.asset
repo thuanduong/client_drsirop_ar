@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: ServerDefineObject
   m_EditorClassIdentifier: 
   apiPath: https://drsirop-server.onrender.com
+  wsPath: wss://drsirop-server.onrender.com

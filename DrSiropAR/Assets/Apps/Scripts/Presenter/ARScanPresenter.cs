@@ -14,6 +14,7 @@ public class ARScanPresenter : IDisposable
     UIARScan uiScan;
 
     public System.Action OnSpawn = ActionUtility.EmptyAction.Instance;
+    public System.Action OnBack = ActionUtility.EmptyAction.Instance;
 
     public ARScanPresenter(IDIContainer container)
     {
@@ -58,7 +59,7 @@ public class ARScanPresenter : IDisposable
 
     private void Scan_OnBtnBack()
     {
-
+        OnBack.Invoke();
     }
 
 

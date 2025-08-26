@@ -66,6 +66,10 @@ public class InitialState : InjectedBHState, IDisposable
         AddState<LoginState>();
         AddState<LoadingMainMenuState>();
         AddState<MainMenuState>();
+
+        AddState<ARCallState>();
+        AddState<ARChatState>();
+
         SetInitialState<LoadingState>();
     }
 
@@ -117,6 +121,7 @@ public class InitialState : InjectedBHState, IDisposable
         {
             ServerDefineObject ss = rq.asset as ServerDefineObject;
             ServerDefinePath.SetAPI(ss.API);
+            ServerDefinePath.SetWS(ss.WS);
             Debug.Log(ss.API);
         }
 

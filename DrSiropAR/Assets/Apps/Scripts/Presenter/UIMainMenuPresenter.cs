@@ -14,6 +14,9 @@ public class UIMainMenuPresenter : IDisposable
             
     public UIMainMenu uiMainMenu;
 
+    public event Action ToChat = ActionUtility.EmptyAction.Instance;
+    public event Action ToCall = ActionUtility.EmptyAction.Instance;
+
     public UIMainMenuPresenter(IDIContainer container)
     {
         Container = container;
@@ -38,6 +41,8 @@ public class UIMainMenuPresenter : IDisposable
         await UniTask.Delay(100);
         uiMainMenu.SetEntity(new UIMainMenu.Entity()
         {
+            btnStartCall = new ButtonEntity(ToCall),
+            btnStartChat = new ButtonEntity(ToChat),
         });
         await uiMainMenu.In();
     }

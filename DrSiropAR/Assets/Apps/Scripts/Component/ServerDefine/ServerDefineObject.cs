@@ -6,6 +6,9 @@ using UnityEngine;
 public class ServerDefineObject : ScriptableObject
 {
     [SerializeField] string apiPath;
+    [SerializeField] string wsPath;
 
     public string API => apiPath;
+
+    public string WS => wsPath;
 }

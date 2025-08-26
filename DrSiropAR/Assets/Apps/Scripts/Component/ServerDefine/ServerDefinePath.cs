@@ -5,10 +5,16 @@ using UnityEngine;
 public static class ServerDefinePath
 {
     public static string API { get; private set; }
-    
+    public static string WS { get; private set; }
+
     public static void SetAPI(string value)
     {
         API = value;
+    }
+
+    public static void SetWS(string value)
+    {
+        WS = value;
     }
 
     public static string GetPath(string api)
