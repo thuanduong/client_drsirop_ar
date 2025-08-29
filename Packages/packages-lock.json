@@ -399,11 +399,10 @@
       "url": "https://packages.unity.com"
     },
     "io.livekit.livekit-sdk": {
-      "version": "https://github.com/livekit/client-sdk-unity.git",
+      "version": "file:client-sdk-unity",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "0ebcf0d7c8992e00b48cce6c27c8c8644c7d3ec7"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
